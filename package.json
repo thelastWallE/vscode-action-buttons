@@ -9,7 +9,7 @@
 		"url": "https://github.com/SeunLanLege/vscode-action-buttons.git"
 	},
 	"engines": {
-		"vscode": "^1.27.2"
+		"vscode": "^1.120.2"
 	},
 	"categories": [
 		"Other"
@@ -22,7 +22,7 @@
 		"status bar"
 	],
 	"activationEvents": [
-		"*"
+		"onStartupFinished"
 	],
 	"main": "./out/src/extension",
 	"contributes": {
@@ -63,7 +63,6 @@
 									"saveAll": {
 										"type": "boolean",
 										"markdownDescription": "Save all open files before execute command"
-
 									},
 									"command": {
 										"type": "string",
@@ -159,8 +158,8 @@
 	"devDependencies": {
 		"@types/mocha": "^2.2.32",
 		"@types/node": "^16.10.2",
+		"@types/vscode": "^1.120.0",
 		"mocha": "^6.1.4",
-		"typescript": "^4.4.3",
-		"vscode": "^1.0.0"
+		"typescript": "^4.9.5"
 	}
 }
