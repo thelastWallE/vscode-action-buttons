@@ -53,8 +53,6 @@ const init = async (context: vscode.ExtensionContext) => {
 	if (commands.length) {
 		const terminals: { [name: string]: vscode.Terminal } = {}
 		commands.forEach(
-			({ cwd, saveAll, command, name, tooltip, color, singleInstance, focus, useVsCodeApi, args }: CommandOpts) => {
-				const vsCommand = `extension.${name.replace(' ', '')}`
 			({
 				cwd,
 				saveAll,
