@@ -9,7 +9,7 @@
 		"url": "https://github.com/SeunLanLege/vscode-action-buttons.git"
 	},
 	"engines": {
-		"vscode": "^1.120.2"
+		"vscode": "^1.120.0"
 	},
 	"categories": [
 		"Other"
